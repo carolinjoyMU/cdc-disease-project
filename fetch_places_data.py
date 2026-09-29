@@ -17,7 +17,7 @@ OUTPUT_PATH = PROJECT_DIR / "places_raw_long.csv"
 STATES = {"WI", "IL", "MI"}
 MEASURES = {"DIABETES", "OBESITY", "BPHIGH", "ACCESS2", "CHECKUP", "CHOLSCREEN"}
 YEAR = "2023"
-VALUE_TYPE = "Crude prevalence"
+VALUE_TYPE = "Age-adjusted prevalence"
 COLUMNS = [
     "year", "stateabbr", "statedesc", "locationname", "locationid",
     "measureid", "data_value", "low_confidence_limit",

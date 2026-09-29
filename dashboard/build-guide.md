@@ -27,6 +27,6 @@ Use `county_priority_scores.csv` as a **Text File** data source in Tableau Deskt
 
 Create a dashboard named **County health priority | IL, MI, WI | 2023**. Put the scatter plot on the left, the top-15 chart on the right, and the state summary beneath them. Add a state filter that applies to all three worksheets. Add a short caption:
 
-> Relative score from six CDC PLACES crude-prevalence measures. Higher means greater combined burden and service-use gap among these 257 counties. Scores are not clinical risk estimates.
+> Relative score from six CDC PLACES age-adjusted prevalence measures. Higher means greater combined burden and service-use gap among these 257 counties. Scores are not clinical risk estimates.
 
 Check the selected state changes all three views and that clearing the filter restores 257 counties. Save the workbook in this directory as `county_health_priority.twbx` using **File > Save As > Tableau Packaged Workbook**. Publish the same workbook to Tableau Public, then add its public URL to the project README.
